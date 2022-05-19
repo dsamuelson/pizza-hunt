@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
-const PizzaSchema = new Schema ({
+const PizzaSchema = new Schema({
     pizzaName: {
         type: String
     },

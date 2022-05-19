@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-const { StringDecoder } = require('string_decoder');
 
 const CommentSchema = new Schema({
     writtenBy: {
